@@ -1,0 +1,80 @@
+body {
+    background-image: url("https://avatars.mds.yandex.net/i?id=b1a9a6ec065fa46bed935c8a45cf751f_l-7454445-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial Black, sans-serif;
+}
+body {
+    width: 100%;
+    font-size: 20px
+}
+#btn {
+    width: 500px;
+    height: 100px;
+    font-size: 30px;
+    display: block;
+    margin: 50px auto;
+    cursor: pointer;
+    border-radius: 30px;
+    color: white;
+    background-color: red;
+    font-family:'Arial Black', sans-serif;
+}
+h2 {
+    text-align: center;
+    margin-top: 100px;
+
+}
+h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+.a1, .a2, .a3, .a4, .a5 {
+    margin-top: 50px;
+}
+.season1 {
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 1.5em;
+    text-align: left;
+    font-size: 23px;
+}
+
+.photo1 {
+    width: 700px;
+    height: auto;
+    display:block;
+    margin:auto;
+}
+.s1photos, header {
+    text-align: center;
+}
+cursive {
+    font-weight: bold
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(166, 166, 166, 0.8);
+    z-index: -1;
+}
+.characters {
+    width: 50vw;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.characters > img {
+        scroll-snap-align: center;
+    }
+.char {
+    width: 300px;
+    height: auto;
+}
